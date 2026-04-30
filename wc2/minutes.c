@@ -20,7 +20,7 @@ int main(void)
 
     printf("\nThe movie will last %d hr and %d min\n", time, remainingMin);
 
-    // final time calculator 
+    // final time calculator
     fhour = hour + time;
     int finalMin = startMin + remainingMin;
 
@@ -31,6 +31,6 @@ int main(void)
         finalMin = finalMin % 60;
     }
 
-    printf("End time: %d:%02d\n", fhour, finalMin);
+    printf("End time: %d:\n", fhour, finalMin);
 
 }
