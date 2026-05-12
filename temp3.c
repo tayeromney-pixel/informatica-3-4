@@ -5,12 +5,13 @@ void f_to_c(void);
 
 //.3 call
 int main(void){
-printf("temperature converter \n");
-printf("1.Celsius to Fahrenheit \n");
-printf("2.Fahrenheit to Celsius \n");
-printf("Enter your option: ");
-int user_response
-scanf("%d" , &user_response);
+    printf("temperature converter \n");
+    printf("1.Celsius to Fahrenheit \n");
+    printf("2.Fahrenheit to Celsius \n");
+    printf("Enter your option: ");
+    int user_response
+    scanf("%d2" , &user_response);{
+    }
 
 if(user_response ==1){
     c_to_f();
