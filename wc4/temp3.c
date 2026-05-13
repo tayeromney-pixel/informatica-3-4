@@ -9,9 +9,8 @@ int main(void){
     printf("1.Celsius to Fahrenheit \n");
     printf("2.Fahrenheit to Celsius \n");
     printf("Enter your option: ");
-    int user_response
-    scanf("%d2" , &user_response);{
-    }
+    int user_response;
+    scanf("%d" , &user_response);
 
 if(user_response ==1){
     c_to_f();
@@ -32,11 +31,13 @@ void c_to_f(void){
 
 }
 
-    void f_to_c(void);
+    void f_to_c(void){
+
+
     float f;
     printf("enter the temperature in farenheit: ");
     scanf("%f", &f);
     float c = (f-32) / 1.8;
-    printf("%.2f°C = %.2f°F \n", f, c);
-}
+    printf("%.2f°C = %.2f°F \n", f, c);}
+
 
